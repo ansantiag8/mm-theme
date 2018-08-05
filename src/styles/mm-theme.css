@@ -1,0 +1,6 @@
+@import './settings/index.css';
+
+.primary-color {
+  background-color: var(--primary-color);
+  color: var(--on-primary-color);
+}

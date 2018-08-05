@@ -1,0 +1,39 @@
+{
+  "author": "Santigo Rodriguez",
+  "bugs": {
+    "url": "https://github.com/ansantiag8/mm-theme/issues"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "css-loader": "^1.0.0",
+    "cssnano": "^4.0.4",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^11.1.0",
+    "postcss-loader": "^2.1.6",
+    "style-loader": "^0.21.0",
+    "vue-loader": "^15.2.6",
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5",
+    "webpack-merge": "^4.1.3"
+  },
+  "description": "",
+  "homepage": "https://github.com/ansantiag8/mm-theme#readme",
+  "keywords": [
+    "My-Material"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "mm-theme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ansantiag8/mm-theme.git"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --config build/webpack.dev.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.1",
+  "dependencies": {}
+}
